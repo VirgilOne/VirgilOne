@@ -1,0 +1,229 @@
+
+/* page styling */
+body {
+  background: linear-gradient(to right, rgba(234, 170, 50,.40) 30%, rgba(223, 223, 176,.25) 90%);
+  margin-left: 10px;
+  margin-right: 10px;
+} 
+
+ @media screen and (min-width:1000px) {
+
+/* paragragh styling */
+p {
+  font-size: 40px;
+}
+
+/*aside styling */
+aside {
+  float:left;
+  height:fit-content;
+  width: auto;
+  position:relative;
+  margin-right: 25px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  border: 3px solid black;
+  background-color: lightblue;
+}
+
+/* link interaction states */
+  /* unvisited link */
+  a:link {
+    color: green;
+  }
+  
+    /* visited link */
+    a:visited {
+    color: blue;
+  }
+  
+    /* mouse over link */
+    a:hover {
+    color: orange;
+  }
+  
+    /* selected link */
+    a:active {
+    color: yellow;
+  }
+
+/* figure video styling */
+figure video {
+  border: 5px solid black;
+}
+
+/* figure caption styling */
+figcaption {
+  padding-bottom: 40px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/*logo image styling */
+.logo {
+  border: 5px solid black;
+  background:linear-gradient(to right, rgba(234, 170, 50,.40) 30%, rgba(223, 223, 176,.25) 90%);
+ }
+
+
+/* table styling */
+table {
+    border-collapse: collapse;
+    border: 3px solid black;
+    letter-spacing: 1px;
+    font-size: 35px;
+  }
+  
+  tfoot {
+    color: blueviolet;
+    font-weight:bold;
+    background-color: lightblue;  
+    font-size: 20px;
+  }
+
+  td, th {
+    border-color: black;
+    border-style: outset;
+    padding: 5px 20px;
+  }
+  
+  th {
+    background-color:darkgrey;
+  }
+  
+  td {
+    text-align: left;
+  }
+
+  /* Table even row style */
+  tr:nth-child(even) td {
+    background-color:lightblue;
+  }
+  /* Table odd row style */
+    tr:nth-child(odd) td {
+    background-color:beige;
+  }
+/* Last row style */
+ tfoot:last-child td {
+  background-color:lightblue;
+  font-size: 30px;
+  font-style: italic;
+  color:blue
+}
+  
+/* Table caption styling */
+  caption {
+    padding: 10px;
+    color:blueviolet;
+    font-weight: 900;
+    font-size: 60px;
+  }
+
+
+  /* Ordered list styling */
+  ol {
+    list-style:decimal;
+    font-size: 40px;
+    color:black;
+    margin-left: 560px;
+}
+
+/* Unordered list styling */
+ul {
+  list-style:square;
+  font-size: 40px;  
+  text-align: left;
+
+}
+
+/* H1 styling */  
+h1 {
+  text-align:center;
+  font-size:50px;
+  color:blueviolet;
+  border: 3px solid black;
+  background:linear-gradient(to right, rgba(234, 170, 50,.40) 30%, rgba(223, 223, 176,.25) 90%);
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* H2 styling */
+  h2 {
+    text-decoration:underline;
+    padding-top: 5px;
+    font-size: 40px;
+  }
+  
+  /* H3 Styling */
+  h3 {
+    font-size: 30px;
+  }
+
+  /* H4 stying */
+  h4 {
+  font-size: 30px;
+}
+
+ /*first line style with pseudo element */
+p.firstline::first-letter {
+  color: chocolate;
+  font-size: 150%;
+}
+
+/*Contact form H4 styling */
+form h4 {
+  padding-left: 100px; /*align Required Comment with text fields */
+  color:blueviolet;
+ } 
+ /*Conatct form H3 styling */
+form h3 {
+  padding-left: 100px; /*align Contact Us label with text fields */
+  font-size: 40px;
+  font-style: oblique;
+ }
+
+/* Contact area styling */
+form {
+  border: 2px solid black;
+  border-radius: 1em;
+  text-align:center;
+  background-color: beige;
+  margin-bottom:20px;
+  height:fit-content;
+  width:1000px;
+  margin-left: 600px;
+   
+}
+label {
+  display:inline-block;
+  min-width: 100px;
+  color:blueviolet;
+}  
+
+
+/*have all text input areas with same font, width and border values */
+input, textarea {
+  height: 30px;
+  width: 500px;
+  border: 1px solid black;
+  box-sizing:border-box;
+}
+  
+/* Button styling */
+.button {
+  margin-bottom: 15px;
+  font-size:40px;
+  color:blueviolet;
+  margin-left:10px;
+  
+  } 
+}
+ /* Footer styling */
+footer {
+   border: 5px solid black;
+   margin-bottom: 30px;
+}
+/* Image in Footer alignment */
+footer p {
+  height: 30px;
+}

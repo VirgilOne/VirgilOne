@@ -1,0 +1,168 @@
+<!-- Assignment 3-->
+
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+    <meta name="author" content="rene Coxworthy">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="styles/elearning-site.css">
+         <title>School Assignment</title>  
+</head>
+<body> 
+  
+    <main id="main-content">
+    <h1>E-learning:Web Design    
+    
+    </h1>
+    <figure class="logo">
+        <img src="/images/SVG/leaf-logo.svg"  width="150" height="150" alt="U Can Learn logo">         
+
+
+        <!--video and other resource links-->
+        <aside>
+            <figure>
+            <h2 class="center-align"> Further Reading
+            </h2>
+            <ul>
+                <li>
+                    <a href="https://www.w3schools.com/html/default.asp" 
+                    target="_blank">w3c School- HTML and CSS Tutorials</a>
+                </li>
+                <li>
+                    <a href="https://html.spec.whatwg.org/multipage/" 
+                    target="_blank">HTML Standard</a>
+                </li>
+                <li>
+                    <a href="https://www.peachpit.com"
+                    target="_blank">Peachpit.com: Site for technology books, eBooks, and videos</a>
+                </li>
+             
+            </ul>
+            <figcaption>If your browser does not support HTML5 video, use this <a href="/images/Web-designing.mp4">link to the video</a> instead.<br>
+                <br><em>*** Video Rights:Adobe Creative Cloud membership ***</em>
+                <hr>
+                <video src="/images/Web-designing.mp4" controls
+                    width="400"
+                    height="400"
+                    muted >
+            
+                </video>
+           </figcaption> 
+         </figure> 
+       </aside>
+
+        <h2>
+            Who We Are and What We Offer
+        </h2>
+        <p class="firstline">
+            Our courses will provide you access to online tutors to assist you in navigating through the best training resources, provide opportunities to complete real-life examples, and provide feedback as you learn the fundamentals of web design and site maintenance. If you are new to the the world of web design, start with the basics. For those already familiar with HTML and CSS basics, the advanced courses are for you.
+        </p>
+         <!--table with course #, description, cost--> 
+        <table>
+            <caption>Current Course Offerings</caption>
+           <tbody>
+                <tr>
+                  <th>Course # </th>
+                  <th>Cost (CAD)</th>
+                  <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Web Design Introduction</td>
+                    <td>$100.00</td>
+                    <td>Introduction to Web Design - the basics</td>
+                </tr>
+                <tr>
+                    <td>Advanced: UI and UX</td>
+                    <td>$200.00</td>
+                    <td>What is UI and UX and why they matter</td>
+                </tr>     
+                <tr>
+                      <td>HTML and CSS - Basics</td>
+                      <td>$300.00</td>
+                      <td>Introduction to HTML and CSS for the beginner</td>
+                  </tr>
+                  <tr>
+                      <td>Advanced: HTML and CSS extended learning </td>
+                      <td>$300.00</td>
+                      <td>HTML and CSS concepts for the advanced designer</td>
+                  </tr>     
+          </tbody>
+          <tfoot class="tfoot">
+            <tr>
+                <td colspan="3">Note: Offerings updated September 1</td>
+            </tr>    
+          </tfoot>
+       </table>
+       <hr>
+        <h2>
+            How to Get Started
+        </h2>
+     <!--ordered list to go here-->
+            <ol>
+                <li>
+                    Review current course offerings.
+                </li>
+                <li>
+                    Assess your current skill level and what subject areas you need to learn more about.
+                </li>
+                <li>
+                    For additional background information, explore the <em>Furthur Reading</em> resource links.
+                </li>
+                <li>
+                    Use the <a href="#contact">Contact Form</a> to get course syllabus and start the enrolment process.
+                </li>
+            </ol>  
+        </main>
+    </div>     
+    <!--Contact form-->
+    <div>
+        <!--form name="contactform" method="post" action="send_form_email.php<"> -->
+        <form action="/landing-area/response.html" method="post"> <!--send to landing page-->
+            <h3  id="contact"> Contact Us:</h3>
+                <h4>Required fields are followed by <span>*</span>.</h4>
+                <p>
+                <label for="Fname">
+                <span>First Name:</span>
+                <strong><span>*</span></strong> <!--required field -->
+                </label>
+                <input type="text" id="Fname" name="user__first_name">
+                </p>
+                <p>
+                    <label for="Lname">
+                    <span>Last Name:</span>
+                    <strong><span>*</span></strong> <!--required field -->
+                    </label>
+                    <input type="text" id="Lname" name="user__last_name">
+                </p>
+
+            <p>
+                <label for="mail">
+                <span>Your Email:</span>
+                <strong><span>*</span></strong><!--required field -->
+                </label>
+                <input type="email" id="mail" name="user_email">
+            </p>
+            <p>
+                <label for="msg">
+                <span>Comments: </span>
+                <strong><span>*</span></strong><!--required field -->
+                </label>
+                <textarea id="msg" name="user_message"></textarea>
+           </p>
+            <button class="button" type="submit"> Click to Submit</button>
+               
+        
+        </form>
+    </div>
+
+  <footer>
+             
+        <p>
+            <img src="http://jigsaw.w3.org/css-validator/images/vcss" width="176" height="62"
+                    alt="Valid CSS!"> Copyright U Can Learn 2020-2025        
+        </p>
+ </footer>
+ 
+ </body>
+
+ </html>
